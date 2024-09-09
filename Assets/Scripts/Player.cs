@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            this.rb.AddForce(Vector2.up * 5f, ForceMode2D.Impulse);
+            this.rb.AddForce(Vector2.up * 10f, ForceMode2D.Impulse);
         }
 
         Flip();
