@@ -1,5 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD
 --- !u!1102 &-4411355641184365113
 AnimatorState:
   serializedVersion: 6
@@ -111,6 +112,8 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+=======
+>>>>>>> 43f75e77fd46b8bfe50432bb3ce4c58ac17e8079
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -119,6 +122,7 @@ AnimatorController:
   m_PrefabAsset: {fileID: 0}
   m_Name: Player
   serializedVersion: 5
+<<<<<<< HEAD
   m_AnimatorParameters:
   - m_Name: speed
     m_Type: 1
@@ -215,3 +219,7 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+=======
+  m_AnimatorParameters: []
+  m_AnimatorLayers: []
+>>>>>>> 43f75e77fd46b8bfe50432bb3ce4c58ac17e8079
