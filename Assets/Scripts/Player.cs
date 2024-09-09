@@ -7,11 +7,12 @@ public class Player : MonoBehaviour
     private float horizontal;
     private Rigidbody2D rb;
     private bool isFacingRight = true;
-    public Animator animator;
+    private Animator animator;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
     void Update()
     {
